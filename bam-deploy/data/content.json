@@ -1,0 +1,406 @@
+{
+  "global": {
+    "logo": {
+      "src": "https://static.wixstatic.com/media/889b57_8e4d9da8461a468a9836c8c844a0abc5~mv2.png/v1/crop/x_0,y_207,w_1563,h_1149/fill/w_340,h_250,al_c,q_90,enc_avif,quality_auto/BAM%20(1).png",
+      "alt": "BAM Mediamanagement Logo",
+      "fallbackText": "BAM."
+    },
+    "navigation": [
+      { "id": "nav-home", "label": "Start", "target": "home" },
+      { "id": "nav-leistungen", "label": "Leistungen", "target": "leistungen" },
+      { "id": "nav-projekte", "label": "Projekte", "target": "projekte" },
+      { "id": "nav-ueber", "label": "Über uns", "target": "ueber" },
+      { "id": "nav-kontakt", "label": "Kontakt", "target": "kontakt" }
+    ],
+    "navCta": { "label": "Jetzt anfragen", "target": "kontakt" },
+    "footer": {
+      "description": "Professionelle Foto- und Videoproduktion, Social Media und Personalgewinnung aus Engelskirchen. Fahrzeuge, Architektur, Produkte.",
+      "copyright": "©2023 von BAM Mediamanagement GbR · Alle Rechte vorbehalten",
+      "links": [
+        { "label": "Impressum", "target": "ueber" },
+        { "label": "Datenschutz", "href": "https://www.bamagentur.de/general-5" }
+      ],
+      "social": [
+        { "label": "Instagram", "shortLabel": "IG", "href": "#" },
+        { "label": "LinkedIn", "shortLabel": "in", "href": "#" }
+      ]
+    },
+    "contact": {
+      "phone": "+49 (0)176 62901202",
+      "phoneHref": "+4917662901202",
+      "email": "info@bammediamanagement.de",
+      "address": "Olpener Straße 33",
+      "city": "51766 Engelskirchen",
+      "responseTime": "Innerhalb 24 Stunden"
+    },
+    "company": {
+      "name": "BAM Bauer und Marxen Mediamanagement GbR",
+      "directors": "Jonathan Bauer, Tobias Marxen, Wolfgang Marxen",
+      "ustId": "DE361078232",
+      "wirtschaftsId": "212/5766/3641"
+    }
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "BAM Mediamanagement",
+        "description": "Let's make the difference! Wir von der BAM Mediamanagement GbR bringen deinen Social Media Auftritt auf das nächste Level.",
+        "ogTitle": "BAM Mediamanagement",
+        "ogDescription": "Wir holen Ihr Unternehmen aus der Vergleichbarkeit.",
+        "ogImage": "",
+        "canonical": "https://www.bamagentur.de"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "visible": true,
+          "badge": "Mediamanagement · Engelskirchen · NRW",
+          "headline": "Let's make",
+          "headlineAccent": "the difference.",
+          "subheadline": "Wir holen Ihr Unternehmen aus der Vergleichbarkeit —\nFoto, Video, Social Media & Personalgewinnung.",
+          "primaryButton": { "label": "Kostenloses Erstgespräch", "target": "kontakt" },
+          "secondaryButton": { "label": "Projekte ansehen", "target": "projekte" }
+        },
+        {
+          "id": "trust",
+          "type": "trust-stats",
+          "visible": true,
+          "stats": [
+            { "id": "s1", "value": 80, "suffix": "+", "label": "Projekte realisiert" },
+            { "id": "s2", "value": 40, "suffix": "+", "label": "Unternehmenskunden" },
+            { "id": "s3", "value": 3,  "suffix": "",  "label": "Jahre Erfahrung" },
+            { "id": "s4", "value": 100,"suffix": "%", "label": "Kundenzufriedenheit" }
+          ]
+        },
+        {
+          "id": "services-overview",
+          "type": "services-grid",
+          "visible": true,
+          "eyebrow": "Was wir tun",
+          "headline": "Vier Leistungen.",
+          "headlineSecond": "Ein Versprechen.",
+          "intro": "Egal ob Firmenkunde oder privater Sammler — wir setzen Fahrzeuge, Produkte und Immobilien in Szene und bringen Ihren Social-Media-Auftritt auf das nächste Level.",
+          "tiles": [
+            {
+              "id": "svc-1", "number": "01", "icon": "users",
+              "title": "Personalgewinnung",
+              "description": "Individuelle Videokampagnen, die Nerven und Zeit sparen.",
+              "linkTarget": "leistungen"
+            },
+            {
+              "id": "svc-2", "number": "02", "icon": "social",
+              "title": "Social Media",
+              "description": "Content-Creation, Uploads und Anfragenbearbeitung aus einer Hand.",
+              "linkTarget": "leistungen"
+            },
+            {
+              "id": "svc-3", "number": "03", "icon": "chart",
+              "title": "Marketing",
+              "description": "Social Media und Print — komplettes Marketing aus einer Hand.",
+              "linkTarget": "leistungen"
+            },
+            {
+              "id": "svc-4", "number": "04", "icon": "camera",
+              "title": "Foto & Video",
+              "description": "Fahrzeuge, Architektur, Produkte — professionell in Szene gesetzt.",
+              "linkTarget": "leistungen"
+            }
+          ]
+        },
+        {
+          "id": "showcase",
+          "type": "showcase",
+          "visible": true,
+          "eyebrow": "Featured Projekt",
+          "headline": "Mercedes 300 SL.",
+          "headlineAccent": "Zeitlos elegant.",
+          "description": "Hochwertige Fahrzeugfotografie auf Location. Dieser ikonische Klassiker aus dem Herbst-Shooting 2024 zeigt, was möglich ist, wenn Licht, Location und Ausrüstung perfekt harmonieren.",
+          "kpis": [
+            { "id": "k1", "value": "1 Tag", "label": "Produktionszeit" },
+            { "id": "k2", "value": "100%",  "label": "Kundenzufriedenheit" }
+          ],
+          "primaryButton":   { "label": "Projekt anfragen",   "target": "kontakt" },
+          "secondaryButton": { "label": "Alle Projekte",       "target": "projekte" },
+          "image": { "src": "", "alt": "Mercedes 300 SL Roadster — BAM Shooting September 2024" }
+        },
+        {
+          "id": "preview-projects",
+          "type": "project-preview",
+          "visible": true,
+          "eyebrow": "Ausgewählte Arbeiten",
+          "headline": "Echte Projekte.",
+          "linkButton": { "label": "Alle Projekte →", "target": "projekte" },
+          "items": [
+            { "id": "pp1", "wide": true,  "category": "Automobil",    "title": "Pagani Huayra · Showroom Shooting", "image": { "src": "", "alt": "Pagani Huayra Heck" } },
+            { "id": "pp2", "wide": false, "category": "Architektur",  "title": "Wohnhaus · Sommer",                  "image": { "src": "", "alt": "Wohnhaus Außen" } },
+            { "id": "pp3", "wide": false, "category": "Gastronomie",  "title": "Die Fette Kuh · Event Shooting",     "image": { "src": "", "alt": "Die Fette Kuh Event" } }
+          ]
+        },
+        {
+          "id": "process",
+          "type": "process-steps",
+          "visible": true,
+          "eyebrow": "Unser Prozess",
+          "headline": "Vom Briefing zum perfekten Ergebnis.",
+          "steps": [
+            { "id": "ps1", "number": "01", "title": "Erstgespräch",  "description": "Kostenlos & unverbindlich. Wir führen Beratungsgespräche, um Ihre Vorstellungen und Vorlieben zu verstehen." },
+            { "id": "ps2", "number": "02", "title": "Konzept",       "description": "Maßgeschneidertes Betreuungskonzept mit Moodboard, Ablaufplan und klar definierten Zielen." },
+            { "id": "ps3", "number": "03", "title": "Produktion",    "description": "Professionelle Umsetzung mit bester Ausrüstung — on-location oder im Studio." },
+            { "id": "ps4", "number": "04", "title": "Lieferung",     "description": "Finales Material in allen Formaten — pünktlich und ohne Qualitätskompromisse." }
+          ]
+        },
+        {
+          "id": "cta-home",
+          "type": "cta-band",
+          "visible": true,
+          "eyebrow": "Bereit?",
+          "headline": "Holen Sie Ihr Unternehmen",
+          "headlineAccent": "aus der Vergleichbarkeit.",
+          "description": "30 Minuten. Kostenlos. Unverbindlich. Wir zeigen Ihnen, was möglich ist.",
+          "primaryButton":   { "label": "Kostenloses Erstgespräch", "target": "kontakt" },
+          "secondaryButton": { "label": "Projekte ansehen",         "target": "projekte" },
+          "footnote": "info@bammediamanagement.de · +49 (0)176 62901202"
+        }
+      ]
+    },
+    "leistungen": {
+      "seo": { "title": "Leistungen | BAM Mediamanagement", "description": "Personalgewinnung, Social Media, Marketing, Fahrzeug- und Architekturfotografie." },
+      "sections": [
+        {
+          "id": "leistungen-hero",
+          "type": "page-hero",
+          "visible": true,
+          "eyebrow": "Leistungsübersicht",
+          "headline": "Leistungen, die",
+          "headlineAccent": "Wirkung zeigen.",
+          "subheadline": "Egal ob Firmenkunde oder privater Sammler — wir bringen Ihren Auftritt auf das nächste Level."
+        },
+        {
+          "id": "personalgewinnung",
+          "type": "service-block",
+          "visible": true,
+          "flip": false,
+          "eyebrow": "01 / Personalgewinnung",
+          "headline": "Fachkräfte gewinnen,",
+          "headlineSecond": "ohne Headhunter-Kosten.",
+          "description": "Unsere individuellen Videokampagnen ersparen dir Nerven und Zeit. Sichere dir jetzt dein kostenloses Erstgespräch!",
+          "bullets": [
+            "Individuelle Videokampagnenstrategie",
+            "Authentische Employer-Branding-Videos",
+            "Job-Teaser für Instagram, LinkedIn und TikTok",
+            "Koordination von Drehtag bis finalem Schnitt",
+            "Messbare Ergebnisse — mehr und bessere Bewerbungen"
+          ],
+          "button": { "label": "Kostenloses Erstgespräch sichern", "target": "kontakt" },
+          "image": { "src": "", "alt": "Personalgewinnung Videoproduktion" }
+        },
+        {
+          "id": "social-media",
+          "type": "service-block",
+          "visible": true,
+          "flip": true,
+          "eyebrow": "02 / Social Media",
+          "headline": "Deine Kanäle.",
+          "headlineSecond": "Professionell betreut.",
+          "description": "Maßgeschneiderte Betreuung deiner Social-Media-Kanäle. Von der Content-Creation, über Uploads und Verarbeitung der Anfragen. Konzentrier dich voll und ganz auf dein Kern- und Alltagsgeschäft.",
+          "bullets": [
+            "Strategische Content-Planung & Redaktionskalender",
+            "Professionelle Foto- und Video-Erstellung",
+            "Posting, Captioning und Hashtag-Optimierung",
+            "Community Management und Anfragenbearbeitung",
+            "Monatliches Reporting mit klaren KPIs"
+          ],
+          "button": { "label": "Kostenlose Erstbesprechung", "target": "kontakt" },
+          "image": { "src": "", "alt": "Social Media Content" }
+        },
+        {
+          "id": "marketing",
+          "type": "service-block",
+          "visible": true,
+          "flip": false,
+          "eyebrow": "03 / Marketing",
+          "headline": "Komplettes Marketing",
+          "headlineSecond": "aus einer Hand.",
+          "description": "Ob Social Media oder Printmedien. Wir kümmern uns um das komplette Marketing deines Unternehmens. Spare dir die Kosten für eine oder sogar mehrere Festanstellungen.",
+          "bullets": [
+            "Ganzheitliche Marketingstrategie",
+            "Social Media & digitales Marketing",
+            "Print-Design: Flyer, Broschüren, Plakate, Kalender",
+            "Markenentwicklung und visuelles Erscheinungsbild",
+            "Kampagnenplanung und -auswertung"
+          ],
+          "button": { "label": "Jetzt anfragen", "target": "kontakt" },
+          "image": { "src": "", "alt": "Marketing Kampagne" }
+        },
+        {
+          "id": "fahrzeuge",
+          "type": "service-gallery",
+          "visible": true,
+          "eyebrow": "04 / Fahrzeuge",
+          "headline": "Elegant zur Vorstellung.",
+          "headlineSecond": "Hilfreich beim Verkauf.",
+          "description": "Von Porsche bis Pagani, von BMW bis Bugatti — wir setzen jedes Fahrzeug ins perfekte Licht. On Location oder im Showroom.",
+          "bannerImage": { "src": "", "alt": "Fahrzeug Banner" },
+          "button": { "label": "Shooting anfragen", "target": "kontakt" }
+        },
+        {
+          "id": "architektur",
+          "type": "service-gallery",
+          "visible": true,
+          "eyebrow": "05 / Architektur & Gebäude",
+          "headline": "Immobilien, Hotels",
+          "headlineSecond": "und Gebäude in Szene.",
+          "description": "Vom historischen Boutique Hotel bis zur modernen Villa — Architektur verdient Fotografie, die ihre Geschichte erzählt.",
+          "bannerImage": { "src": "", "alt": "Architektur Banner" },
+          "button": { "label": "Shooting anfragen", "target": "kontakt" }
+        },
+        {
+          "id": "produkte",
+          "type": "service-gallery",
+          "visible": true,
+          "eyebrow": "06 / Maschinen & Produkte",
+          "headline": "Ob Produktion oder Produkt —",
+          "headlineSecond": "wir kümmern uns drum.",
+          "description": "",
+          "bannerImage": { "src": "", "alt": "Maschinen Produkte Banner" },
+          "button": { "label": "Shooting anfragen", "target": "kontakt" }
+        },
+        {
+          "id": "gastronomie",
+          "type": "service-gallery",
+          "visible": true,
+          "eyebrow": "07 / Gastronomie & Events",
+          "headline": "Kulinarik und Events",
+          "headlineSecond": "professionell begleitet.",
+          "description": "",
+          "bannerImage": { "src": "", "alt": "Gastronomie Event" },
+          "button": { "label": "Event anfragen", "target": "kontakt" }
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "visible": true,
+          "eyebrow": "Häufige Fragen",
+          "headline": "Was Sie wissen möchten.",
+          "items": [
+            { "id": "faq1", "question": "Wie läuft eine Zusammenarbeit ab?",            "answer": "Alles beginnt mit einem kostenlosen Erstgespräch. Wir führen Beratungsgespräche mit den Kunden, um deren Vorstellungen und Vorlieben besser zu verstehen und ein passendes Betreuungskonzept zu finden." },
+            { "id": "faq2", "question": "Arbeitet ihr auch überregional?",               "answer": "Ja. Unser Hauptstandort ist Engelskirchen (NRW), wir sind jedoch deutschlandweit tätig. Fahrt- und Übernachtungskosten werden transparent kalkuliert." },
+            { "id": "faq3", "question": "Was kostet das Erstgespräch?",                  "answer": "Das Erstgespräch ist vollständig kostenlos und unverbindlich — keine versteckten Kosten." },
+            { "id": "faq4", "question": "Wie schnell erhalte ich das fertige Material?", "answer": "Bearbeitete Fotos in der Regel innerhalb von 72 Stunden. Videos 5–14 Tage nach Drehtag." }
+          ]
+        },
+        {
+          "id": "cta-leistungen",
+          "type": "cta-band",
+          "visible": true,
+          "eyebrow": "Projekt starten",
+          "headline": "Welche Leistung",
+          "headlineAccent": "passt zu Ihrem Ziel?",
+          "description": "Kostenloses Erstgespräch — wir finden gemeinsam die richtige Lösung.",
+          "primaryButton": { "label": "Gespräch anfragen", "target": "kontakt" }
+        }
+      ]
+    },
+    "projekte": {
+      "seo": { "title": "Projekte | BAM Mediamanagement", "description": "Portfolio und Referenzen." },
+      "sections": [
+        {
+          "id": "projekte-hero",
+          "type": "page-hero",
+          "visible": true,
+          "eyebrow": "Portfolio",
+          "headline": "Projekte/Portfolio.",
+          "headlineAccent": "Echte Arbeiten.",
+          "subheadline": "Alle Fotos wurden von BAM Mediamanagement selbst aufgenommen — Fahrzeuge, Architektur, Produkte, Gastronomie und Marketing."
+        },
+        {
+          "id": "gallery",
+          "type": "gallery",
+          "visible": true,
+          "filterButtons": [
+            { "id": "f-alle",       "label": "Alle",                  "cat": "alle" },
+            { "id": "f-auto",       "label": "Fahrzeuge",             "cat": "automobil" },
+            { "id": "f-arch",       "label": "Architektur",           "cat": "architektur" },
+            { "id": "f-prod",       "label": "Maschinen / Produkte",  "cat": "produkte" },
+            { "id": "f-gastro",     "label": "Gastronomie",           "cat": "gastronomie" },
+            { "id": "f-marketing",  "label": "Marketing",             "cat": "marketing" }
+          ],
+          "items": []
+        }
+      ]
+    },
+    "ueber": {
+      "seo": { "title": "Über uns | BAM Mediamanagement", "description": "Aus Leidenschaft zur Profession." },
+      "sections": [
+        {
+          "id": "ueber-hero",
+          "type": "page-hero",
+          "visible": true,
+          "eyebrow": "Wer wir sind",
+          "headline": "Aus Leidenschaft",
+          "headlineAccent": "zur Profession.",
+          "subheadline": "Entstanden aus echter Begeisterung für Fahrzeuge, Technik und Architektur — gewachsen zu einer Agentur, die Unternehmen sichtbar macht."
+        },
+        {
+          "id": "about-content",
+          "type": "about",
+          "visible": true,
+          "eyebrow": "Unsere Geschichte",
+          "headline": "Let's make",
+          "headlineSecond": "the difference.",
+          "paragraphs": [
+            "Aus dem Interesse an Fahrzeugen, Technik und Architektur erwuchs die Leidenschaft für Fotografie und Videografie. Die Arbeit begann mit Fotos von Fahrzeugen von Familie, Freunden und Bekannten — und es entwickelte sich bald ein eigener persönlicher Stil.",
+            "Wir nutzen die beste Ausrüstung, die es gibt, und führen im Vorfeld der Aufnahmen Beratungsgespräche mit den Kunden, um deren Vorstellungen und Vorlieben besser zu verstehen und ein passendes und auf sie angepasstes Betreuungskonzept zu finden.",
+            "BAM steht für Bauer und Marxen — Jonathan Bauer, Tobias Marxen und Wolfgang Marxen."
+          ],
+          "values": [
+            { "id": "v1", "icon": "check",   "title": "Qualität vor Quantität",  "text": "Wir nehmen uns die Zeit, die jedes Projekt braucht." },
+            { "id": "v2", "icon": "shield",  "title": "Persönliche Betreuung",   "text": "Direkter Ansprechpartner — von Anfang bis Ende." },
+            { "id": "v3", "icon": "clock",   "title": "Ergebnisorientiert",      "text": "Content, der Ihr Unternehmen nachweislich voranbringt." }
+          ],
+          "image": { "src": "", "alt": "BAM Mediamanagement bei der Arbeit" }
+        },
+        {
+          "id": "cta-ueber",
+          "type": "cta-band",
+          "visible": true,
+          "eyebrow": "Möchten Sie mehr erfahren?",
+          "headline": "Melden Sie sich",
+          "headlineAccent": "gerne bei uns.",
+          "primaryButton": { "label": "Kontakt aufnehmen", "target": "kontakt" }
+        }
+      ]
+    },
+    "kontakt": {
+      "seo": { "title": "Kontakt | BAM Mediamanagement", "description": "Kostenloses Erstgespräch anfragen." },
+      "sections": [
+        {
+          "id": "kontakt-hero",
+          "type": "page-hero",
+          "visible": true,
+          "eyebrow": "Kontakt",
+          "headline": "Lass uns",
+          "headlineAccent": "sprechen.",
+          "subheadline": "Kostenloses Erstgespräch, Projektanfrage oder einfach eine Frage — wir antworten innerhalb von 24 Stunden."
+        },
+        {
+          "id": "kontakt-form",
+          "type": "contact",
+          "visible": true,
+          "leftHeadline": "Direkt in Kontakt treten.",
+          "leftSubtext": "Rufen Sie an, schreiben Sie eine E-Mail oder nutzen Sie das Formular — wir freuen uns.",
+          "testimonial": { "stars": 5, "text": "Sehr professionell, kreativ und immer erreichbar. Die Ergebnisse haben unsere Erwartungen übertroffen." },
+          "formHeadline": "Projekt anfragen.",
+          "formServices": [
+            "Personalgewinnung", "Social Media", "Marketing",
+            "Fahrzeugfotografie", "Architektur / Gebäude",
+            "Maschinen / Produkte", "Gastronomie / Event", "Noch nicht sicher"
+          ],
+          "submitLabel": "Anfrage senden →",
+          "footnote": "Kein Spam. Antwort innerhalb 24h."
+        }
+      ]
+    }
+  }
+}
